@@ -33,29 +33,51 @@ public class Main {
 //
 
 
+//        Scanner sc = new Scanner(System.in);
+//        int a;
+//        int b;
+//
+//        System.out.println("Enter the value of a and b: ");
+//        a=sc.nextInt();
+//        b=sc.nextInt();
+////        System.out.println(a);
+//
+//        //sum
+//        int sum;
+//        sum = a + b;
+//        System.out.println(sum+"");
+//
+//        //sub
+//        int sub;
+//        sub = a - b;
+//        System.out.println(sub+"");
+//
+//        //mul
+//        int mul;
+//        mul = a * b;
+//        System.out.println(mul+"");
+//
+
+//with Test cases
+
+
         Scanner sc = new Scanner(System.in);
-        int a;
-        int b;
 
-        System.out.println("Enter the value of a and b: ");
-        a=sc.nextInt();
-        b=sc.nextInt();
-//        System.out.println(a);
+        int test;
+        test = sc.nextInt();
+        while(test!=0){
 
-        //sum
-        int sum;
-        sum = a + b;
-        System.out.println(sum+"");
+            int a;
+            int b;
 
-        //sub
-        int sub;
-        sub = a - b;
-        System.out.println(sub+"");
+            a = sc.nextInt();
+            b = sc.nextInt();
+            System.out.println((a+b)+" "+(a-b)+" "+(a*b));
 
-        //mul
-        int mul;
-        mul = a * b;
-        System.out.println(mul+"");
+            //decrement test each time
+            test--;
+
+        }
 
 
 
