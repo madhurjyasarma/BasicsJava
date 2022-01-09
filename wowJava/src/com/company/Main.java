@@ -1,6 +1,7 @@
 package com.company;
 
 
+import java.text.DecimalFormat;
 import java.util.Scanner;
 
 public class Main {
@@ -60,24 +61,78 @@ public class Main {
 
 //with Test cases
 
+//
+//        Scanner sc = new Scanner(System.in);
+//
+//        int test;
+//        test = sc.nextInt();
+//        while(test!=0) {
+//
+//            int a;
+//            int b;
+//
+//            a = sc.nextInt();
+//            b = sc.nextInt();
+//            System.out.println((a+b)+" "+(a-b)+" "+(a*b));
+//
+//            //decrement test each time
+//            test--;
+//          }
 
-        Scanner sc = new Scanner(System.in);
+        //write your code here
+//        Scanner sc = new Scanner(System.in);
+//
+//        int N;
+//        int M;
+//
+//        N = sc.nextInt();
+//        M = sc.nextInt();
+//
+//        System.out.println(N +" "+ M);
 
-        int test;
-        test = sc.nextInt();
-        while(test!=0){
 
-            int a;
-            int b;
+//        Scanner sc = new Scanner(System.in);
+//
+//        char a;
+//        a = sc.next().charAt(0);
+//        System.out.println(a);
+//
 
-            a = sc.nextInt();
-            b = sc.nextInt();
-            System.out.println((a+b)+" "+(a-b)+" "+(a*b));
 
-            //decrement test each time
-            test--;
+//
+//        int a;
+//        float b;
+//        char c;
+//
+//        Scanner sc = new Scanner(System.in);
+//
+//        a = sc.nextInt();
+//        b = sc.nextFloat();
+//        c = sc.next().charAt(0);
+//
+//        System.out.println(a+"$"+b+"$"+c);
+//        DecimalFormat df = new DecimalFormat("0.00");
+//        System.out.println(a + "$" + df.format(b) + "$" +c);
+
+
+// Switch case is awesome !!!!!
+        int age;
+        age = 2;
+
+        switch (age){
+
+            case 1:
+                System.out.println("this is in case 1");
+                break;
+            case 2:
+                System.out.println("this is in case 2");
+                break;
+            case 3:
+                System.out.println("this is in case 3");
+                break;
 
         }
+
 
 
 
